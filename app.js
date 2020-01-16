@@ -71,20 +71,43 @@
 // Date: 1/15/2020
 // outside scope to inside scope
 
-let a = 'first'
+// let a = 'first'
 
-function scopeTest() {
-    console.log(a);
-    a = 'changed';
-    let b = 'second';
-    if (a != ''){
-        console.log(a);
-        console.log('inside if: ' + b);
-        let c  = 'third';
-    }
+// function scopeTest() {
+//     console.log(a);
+//     a = 'changed';
+//     let b = 'second';
+//     if (a != ''){
+//         console.log(a);
+//         console.log('inside if: ' + b);
+//         let c  = 'third';
+//     }
      
-    // console.log(I am doing the test on the github);
-}
-console.log(a);
-scopeTest();
+//     // console.log(I am doing the test on the github);
+// }
+// console.log(a);
+// scopeTest();
 
+// 14 Returning Functions from Functions
+function one() {
+    return 'one'
+}
+
+//let value = one();
+//console.log(value);
+//console.log(one());
+
+//let value = one();
+//console.log(typeof value);
+
+// let value = one;
+// console.log(value)
+
+function two() {
+    return function (){
+        console.log('two');
+    }
+}
+
+let myFunctin = two();
+myFunctin();
