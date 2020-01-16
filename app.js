@@ -103,11 +103,18 @@ function one() {
 // let value = one;
 // console.log(value)
 
-function two() {
-    return function (){
-        console.log('two');
+// function two() {
+//     return function (){
+//         console.log('two');
+//     }
+// }
+
+// let myFunctin = two();
+// myFunctin();
+
+function three() {
+    return function(){
+        return 'three'
     }
 }
-
-let myFunctin = two();
-myFunctin();
+console.log(three()());
