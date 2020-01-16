@@ -83,7 +83,7 @@ function scopeTest() {
         let c  = 'third';
     }
      
-    // console.log(c);
+    // console.log(I am doing the test on the github);
 }
 console.log(a);
 scopeTest();
