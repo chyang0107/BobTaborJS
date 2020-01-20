@@ -121,3 +121,34 @@ console.log(three()());
 
 // I created the repository
 // at my personal mac
+
+//01-19-2020
+//! Object literals
+
+let car = {
+    make: 'bmw',
+    model: '754li',
+    year: '2010',
+    getPrice: function () {
+        return 5000;
+    },
+    printDescription: function () {
+        console.log(this.make + ' ' + this.model)
+    }
+
+}
+
+//car.printDescription();
+//console.log(car.year);
+//console.log(car[1])
+
+//var anotherCar = {};
+//anotherCar.whatever = 'bob';
+//console.log(anotherCar.whatever);
+
+var counter = (function () {
+    let count = 0;
+    function print(message) {
+        console.log('')
+    }
+})();
