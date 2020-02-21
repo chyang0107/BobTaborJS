@@ -8,5 +8,8 @@ console.log(myString.toString());
 
 console.log(typeof myString);
 
+//We can use JavaScript’s built-in constructor functions 
+//(just like the ones we’ve created) to create objects:
+
 
 
