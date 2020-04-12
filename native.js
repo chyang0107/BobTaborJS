@@ -7,7 +7,7 @@
 // console.log(myString.toString());
 
 // console.log(typeof myString);
-
+ 
 //We can use JavaScript’s built-in constructor functions 
 //(just like the ones we’ve created) to create objects:
 
@@ -19,10 +19,10 @@
 // myPrimitive = myPrimitive.toLowerCase();
 // console.log(typeof myPrimitive);
 
-let myNumber = new Number(7);
-console.log(typeof myNumber);
-let myPrimitie = myNumber.valueOf();
-console.log(typeof myPrimitie);
+// let myNumber = new Number(7);
+// console.log(typeof myNumber);
+// let myPrimitie = myNumber.valueOf();
+// console.log(typeof myPrimitie);
 
 
 
