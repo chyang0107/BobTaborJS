@@ -15,5 +15,16 @@
 // by calling a specific function 
 // on each element present in the parent array.
 
+// let names = ['david', 'eddie', 'alex', 'michael'];
+// names.map( (name) => console.log(`howdy ${name}!`))
+
+
+// let names = ['david', 'eddie', 'alex', 'michael'];
+// let i = 0;
+// names.map((name) => {i++; console.log(`howdy ${name} ${i} !`);});
+
 let names = ['david', 'eddie', 'alex', 'michael'];
-names.map( (name) =>   )
+
+var tranformed = names.map((name)=> {return `howdy ${name}!`}) 
+
+console.log(tranformed);
