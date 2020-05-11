@@ -1,5 +1,5 @@
 //declaration
-
+// Class completed
 class Car {
     constructor(make, model, year){
         this.make = make;
@@ -30,3 +30,4 @@ mySportsCar.revEnginer();
 // let car = class {
 
 // }
+
