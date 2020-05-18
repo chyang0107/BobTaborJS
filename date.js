@@ -14,7 +14,7 @@ let bob = new Date('December 7, 1969 07:01:23');
 // console.log(bob.getTime());
 
 let first = 'Knowledge is power but enthusiasm pulls the switch'
-let second = 'Do or Do not.  There is no try.';
+let second = 'Do or Do not.There is no try.';
 
 let third = '4,8,15,16,23,43';
 
@@ -26,14 +26,22 @@ let third = '4,8,15,16,23,43';
 // let mySlice = first.slice(13, 18)
 // console.log(mySlice);
 
-let mySubstr = first.substr(13, 5);//(start, length)
-console.log(mySubstr);
+// let mySubstr = first.substr(13, 5);//(start, length)
+// console.log(mySubstr);
+
+// let myStartsWith = second.startsWith('Do');
+// console.log(myStartsWith);
+
+// let myInclide = second.includes(' There ');
+// console.log(myInclide);
+
+// let myRepeat = 'Hi! '.repeat(3);
+// console.log(myRepeat);
 
 
-
-
-
-
+let myTrim = '    bloated     ';
+console.log(myTrim.length);
+console.log(myTrim.trim().length);
 
 
 
