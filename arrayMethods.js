@@ -4,11 +4,35 @@ let others = ['sammy', 'gary', 'wolfgang', 'mark'];
 let lost = [4,8,15,16,23,42];
 let fibonacci = [1,1,2,3,5,8,13,21,34,55];
 
-// var combine = lost.concat(others);
+var combine = lost.concat(others);
 // console.log(combine);
 
 // console.log(fibonacci.join('~'));
 
 //push, pop
-console.log(lost.shift());
-console.log(lost);
+// console.log(lost.shift());
+// console.log(lost);
+
+// lost.unshift(1,2,3,4)
+// console.log(lost);
+
+// console.log(names);
+// console.log(names.reverse());
+// console.log(names.sort());
+
+// Search a string for the last occurrence of "planet":
+
+// console.log(combine);
+// console.log(combine.lastIndexOf(1));
+
+//map
+
+// var filtered = combine.filter((x) => {if (x<15) return x;})
+// console.log(filtered);
+
+// names.forEach((name)=> console.log(`howdy ${name}`));
+
+// var filtered = combine.filter((x)=>{if (x<=15) return x;});
+// console.log(filtered.every((num)=>num <16));
+
+console.log(fibonacci.some((num)=> num >50));
