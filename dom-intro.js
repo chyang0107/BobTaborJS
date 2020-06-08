@@ -5,7 +5,7 @@
 
     // Get a reference to my Button
     let myButton = document.getElementById('myButton');
-    myButton.addEventListener('click', clickHandler('hi frim life'));
+    myButton.addEventListener('click', function(){clickHandler('hi frim life')});
 
 
 
